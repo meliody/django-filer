@@ -238,7 +238,7 @@ First a custom model must be defined; it should inherit from BaseImage, the basi
 
 .. code-block:: python
 
-    from filer.models.abstract.BaseImage
+    from filer.models.abstract import BaseImage
     from filer.utils.compatibility import GTE_DJANGO_1_10
 
     class CustomImage(BaseImage):
